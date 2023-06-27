@@ -1,0 +1,86 @@
+
+ul{
+	line-style: none;
+}
+body{
+	font-size: 1rem;
+	line-height: 1.6;
+
+	font-family: sans-serif;
+
+}
+header{
+
+	padding: 2rem 0;
+}
+nav{
+	max-width: 1100px;
+
+}
+.menu >li, .menu > a{
+	display: inline-block;
+
+}
+.menu li{
+position: relative;
+}
+.menu a{
+	text-decoration: NONE;
+	color: #fff;
+	display: block;
+	padding: 10px 1.5rem;
+	transition: background-color .22s ease, color .22s ease;
+}
+.menu a:hover{
+	background-color: #BFC175 ;
+	color: white;
+}
+.submenu{
+	position: absolute;
+	background-color: #96C175 ;
+	width: 140px;
+	left: 0;
+	display: none;
+}
+.submenu2{
+	position: absolute;
+	left: 100%;
+	width: 140px;
+	top: 0;
+	background-color: #96C175 	;
+	display: none;
+}
+.submenu2{
+	position: absolute;
+	left: 100%;
+	width: 140px;
+	top: 0;
+	background-color: #96C175 ;
+	display: none;
+}
+.submenu3{
+	position: absolute;
+	left: 100%;
+	width: 250px;
+	top: 0;
+	background-color: #96C175 ;
+	display: none;
+}
+.menu li:hover > .submenu{
+	display: block;
+}
+ .submenu li:hover > .submenu2{
+	display: block;
+}
+ .submenu li:hover > .submenu3{
+	display: block;
+}
+ .submenu select:hover > .submenu3{
+	display: block;
+}
+ .submenu option:hover > .submenu3{
+	display: block;
+}
+ .submenu3 option:hover > .option{
+	display: block;
+}

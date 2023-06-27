@@ -1,0 +1,54 @@
+.lgoin_terry{
+
+
+	background:transparent;
+	border:2px solid rgba(255,255,255,.5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+.lgoin_terry.control-group{
+	
+}
+.container{
+
+
+	
+
+}
+body{
+
+	background-image: url('img/logs.png');
+	background-position: center center;
+	background-size: cover;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signup_container{
+	
+	
+	
+	background:transparent;
+	border:2px solid rgba(255,255,255,.5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.login{
+
+	
+
+	
+}
